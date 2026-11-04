@@ -28,7 +28,7 @@ export function Navbar() {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-7 text-sm font-medium text-slate-600">
           <a href="#comparador" className="hover:text-emerald-600 transition-colors">Comparador</a>
-          <a href="#estadisticas" className="hover:text-emerald-600 transition-colors">Estadísticas SERNAC</a>
+          <a href="#estadisticas" className="hover:text-emerald-600 transition-colors">Inteligencia de Precios</a>
           <a href="#dos-tiendas" className="hover:text-emerald-600 transition-colors">Canasta 2 Tiendas</a>
           <a href="#chef-ia" className="hover:text-emerald-600 transition-colors">Chef & Nutri IA</a>
           <a href="#faq" className="hover:text-emerald-600 transition-colors">FAQ</a>
@@ -70,7 +70,7 @@ export function Navbar() {
             onClick={() => setMobileOpen(false)}
             className="text-slate-700 font-medium py-1.5 hover:text-emerald-600"
           >
-            Estadísticas SERNAC
+            Inteligencia de Precios
           </a>
           <a
             href="#dos-tiendas"

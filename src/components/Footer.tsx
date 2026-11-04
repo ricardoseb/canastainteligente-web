@@ -32,7 +32,7 @@ export function Footer() {
               <li><a href="#comparador" className="hover:text-emerald-600">Comparador de Precios</a></li>
               <li><a href="#dos-tiendas" className="hover:text-emerald-600">Canasta 2 Tiendas</a></li>
               <li><a href="#chef-ia" className="hover:text-emerald-600">Chef & Nutri IA</a></li>
-              <li><a href="#estadisticas" className="hover:text-emerald-600">Estadísticas SERNAC</a></li>
+              <li><a href="#estadisticas" className="hover:text-emerald-600">Inteligencia de Precios</a></li>
             </ul>
           </div>
 
