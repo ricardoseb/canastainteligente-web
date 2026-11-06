@@ -26,12 +26,12 @@ export function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-7 text-sm font-medium text-slate-600">
-          <a href="#comparador" className="hover:text-emerald-600 transition-colors">Comparador</a>
-          <a href="#estadisticas" className="hover:text-emerald-600 transition-colors">Inteligencia de Precios</a>
-          <a href="#dos-tiendas" className="hover:text-emerald-600 transition-colors">Canasta 2 Tiendas</a>
-          <a href="#chef-ia" className="hover:text-emerald-600 transition-colors">Chef & Nutri IA</a>
-          <a href="#faq" className="hover:text-emerald-600 transition-colors">FAQ</a>
+        <nav className="hidden md:flex items-center gap-7 text-sm font-semibold text-slate-700">
+          <a href="#app-en-vivo" className="hover:text-[#0B6B57] transition-colors">La App en Vivo</a>
+          <a href="#comparador" className="hover:text-[#0B6B57] transition-colors">Comparador</a>
+          <a href="#dos-tiendas" className="hover:text-[#0B6B57] transition-colors">Canasta 2 Tiendas</a>
+          <a href="#chef-ia" className="hover:text-[#0B6B57] transition-colors">Asistente 3 Pills</a>
+          <a href="#faq" className="hover:text-[#0B6B57] transition-colors">FAQ</a>
         </nav>
 
         {/* CTA */}
@@ -57,46 +57,46 @@ export function Navbar() {
 
       {/* Mobile Drawer */}
       {mobileOpen && (
-        <div className="md:hidden bg-white border-b border-slate-200 px-6 py-4 flex flex-col gap-3 shadow-lg animate-in slide-in-from-top-2">
+        <div className="md:hidden bg-white border-b border-slate-200 px-6 py-4 flex flex-col gap-3 shadow-lg">
+          <a
+            href="#app-en-vivo"
+            onClick={() => setMobileOpen(false)}
+            className="text-slate-700 font-semibold py-1.5 hover:text-[#0B6B57]"
+          >
+            La App en Vivo
+          </a>
           <a
             href="#comparador"
             onClick={() => setMobileOpen(false)}
-            className="text-slate-700 font-medium py-1.5 hover:text-emerald-600"
+            className="text-slate-700 font-semibold py-1.5 hover:text-[#0B6B57]"
           >
             Comparador
           </a>
           <a
-            href="#estadisticas"
-            onClick={() => setMobileOpen(false)}
-            className="text-slate-700 font-medium py-1.5 hover:text-emerald-600"
-          >
-            Inteligencia de Precios
-          </a>
-          <a
             href="#dos-tiendas"
             onClick={() => setMobileOpen(false)}
-            className="text-slate-700 font-medium py-1.5 hover:text-emerald-600"
+            className="text-slate-700 font-semibold py-1.5 hover:text-[#0B6B57]"
           >
             Canasta 2 Tiendas
           </a>
           <a
             href="#chef-ia"
             onClick={() => setMobileOpen(false)}
-            className="text-slate-700 font-medium py-1.5 hover:text-emerald-600"
+            className="text-slate-700 font-semibold py-1.5 hover:text-[#0B6B57]"
           >
-            Chef & Nutri IA
+            Asistente 3 Pills
           </a>
           <a
             href="#faq"
             onClick={() => setMobileOpen(false)}
-            className="text-slate-700 font-medium py-1.5 hover:text-emerald-600"
+            className="text-slate-700 font-semibold py-1.5 hover:text-[#0B6B57]"
           >
             FAQ
           </a>
           <a
             href="#descargar"
             onClick={() => setMobileOpen(false)}
-            className="mt-2 text-center bg-emerald-600 text-white py-2.5 rounded-xl font-semibold shadow-xs"
+            className="mt-2 text-center bg-[#0B6B57] text-white py-2.5 rounded-xl font-bold shadow-xs"
           >
             Descargar App en Google Play
           </a>
